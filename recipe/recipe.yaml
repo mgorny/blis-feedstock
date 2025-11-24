@@ -19,6 +19,7 @@ source:
 
 build:
   number: ${{ build_number }}
+  skip: not win
   string: ${{ threading }}_h${{ hash }}_${{ build_number }}
   variant:
     down_prioritize_variant: ${{ 1 if threading == "openmp" else 0 }}

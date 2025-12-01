@@ -1,3 +1,5 @@
+channel_targets:
+  - mgorny blis-test
 c_compiler:
   - gcc     # [linux]
 threading:

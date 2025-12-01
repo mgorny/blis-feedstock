@@ -3,7 +3,7 @@ github:
   branch_name: main
   tooling_branch_name: main
 provider:
-  win: azure
+  win: github_actions
   linux_aarch64: default
 build_platform:
   linux_aarch64: linux_64
